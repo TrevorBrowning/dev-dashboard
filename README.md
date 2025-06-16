@@ -1,14 +1,17 @@
 # Dev Dashboard Project
 
-Welcome to the **Dev Dashboard** repo...a collaborative learning project by and for our group!
+Welcome to the **Dev Dashboard** repo...a collaborative learning project by and
+for our group!
 
-> **Goal:** Build a unified platform of tools that help us (and eventually others!) learn and work together more effectively.
+> **Goal:** Build a unified platform of tools that help us (and eventually
+> others!) learn and work together more effectively.
 
 ---
 
 ## Current Phase: Project Management Board
 
-Our first build is a **Trello-like project management board**. This foundational tool will help us coordinate all future projects from one place.
+Our first build is a **Trello-like project management board**. This foundational
+tool will help us coordinate all future projects from one place.
 
 ## Planned Phases:
 
@@ -36,13 +39,16 @@ This project is made possible by these awesome contributors.
 
 ### App Logic & Backend Team
 
-- **Trevor Browning** (Project Lead) - [TrevorBrowning](https://github.com/trevorbrowning)
+- **Trevor Browning** (Project Lead) -
+  [TrevorBrowning](https://github.com/trevorbrowning)
+- **Prince Akakpo** - [pope](https://github.com/thesyntaxdude)
 
 ---
 
 ## Git & GitHub Basics for Beginners
 
-If you're new to Git or GitHub, start here! This guide walks you through setup, concepts, and our contribution workflow.
+If you're new to Git or GitHub, start here! This guide walks you through setup,
+concepts, and our contribution workflow.
 
 ---
 
@@ -55,7 +61,8 @@ Download Git from the official site:
 
 #### B. Configure Git
 
-Open your terminal (Mac: `Terminal`, Windows: `Git Bash`) and set your Git identity. Use the same email as your GitHub account:
+Open your terminal (Mac: `Terminal`, Windows: `Git Bash`) and set your Git
+identity. Use the same email as your GitHub account:
 
 ```
 git config --global user.name "Your Name"
@@ -107,7 +114,8 @@ git pull origin main
 git checkout -b feature/login-button-style
 ```
 
-_Format: \`branch-type/short-description\` (e.g., \`bug/fix-header\` or \`feat/add-auth\`)_
+_Format: \`branch-type/short-description\` (e.g., \`bug/fix-header\` or
+\`feat/add-auth\`)_
 
 ---
 
@@ -151,8 +159,8 @@ git push --set-upstream origin your-branch-name
 
 Example: git push --set-upstream origin feat/ChangeREADME
 
-This uploads your branch to the GitHub repo.
-You only need to do this once before opening a pull request.
+This uploads your branch to the GitHub repo. You only need to do this once
+before opening a pull request.
 
 ---
 
@@ -202,6 +210,7 @@ Pick your next issue and repeat the cycle!
 
 ## Tips for Success
 
-- Keep commit messages clear and descriptive (\`feat:\`, \`fix:\`, \`refactor:\` prefixes help!)
+- Keep commit messages clear and descriptive (\`feat:\`, \`fix:\`, \`refactor:\`
+  prefixes help!)
 - Ask questions — we’re all here to learn together.
 - Use branches for _every_ feature or fix.
