@@ -12,9 +12,25 @@
 @import url("components.css");
 
 /* Use Global Styles Here  */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+  --container-bg-light: #F1F2F4;
+  --wrapper-color: #A9A9A9;
+  --primary-font: "Inter";
+  --logo-font: "Electrolize";
+  --dark-color: #181717;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font-family: var(--font-family-main);
-  background-color: var(--color-background);
-  margin: 0;
+  font-family: var(--primary-font), -apple-system, sans-serif;
+  font-weight: 400;
+  /* height: 100dvh; */
 }
