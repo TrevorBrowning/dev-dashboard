@@ -7,13 +7,14 @@
   <title>Dev Dashboard - Developer Collaboration Tool</title>
   <!-- <link rel="stylesheet" href="css/main.css" /> -->
   <link rel="stylesheet" href="css/login-page.css" />
+  <link rel="stylesheet" href="css/board-layout.css">
   <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' />
   <script type="module" src="js/main.js" defer></script>
   <script src="https://kit.fontawesome.com/1e1bc15764.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div id="login-view-wrapper" class="active">
+  <div id="login-view-wrapper" class="">
 
     <div id="login-field-container">
 
@@ -47,6 +48,46 @@
 
     </div>
 
+  </div>
+
+  <div id="dashboard-view-wrapper" class="active">
+    <div id="dashboard-container">
+      <h2 class="main-heading">Dev DashBoard</h2>
+      <div class="toolbar-container">
+        <ul class="toolbar">
+          <li>Project Board</li>
+          <li>Whiteboard</li>
+          <li>Add Task</li>
+        </ul>
+        <div class="toolbar-extras">
+          <div class="theme-toggle">
+            <input type="checkbox" id="checkboxInput">
+            <label for="checkboxInput" class="toggleSwitch">
+            </label>
+          </div>
+          <button id="logout-btn" class="button">Logout</button>
+        </div>
+      </div>
+      <div class="close-menu-button">X</div>
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+
+      <div class="board-layout">
+        <div id="todo-column" class="tasks-column">
+          <h2 class="column-title">Todo</h2>
+        </div>
+        <div id="inprogress-column" class="tasks-column">
+          <h2 class="column-title">Inprogress</h2>
+        </div>
+        <div id="completed-column" class="tasks-column">
+          <h2 class="column-title">Completed</h2>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 

@@ -26,24 +26,12 @@
   justify-content: space-around;
 }
 
-h1.main-heading{
-  font-family: var(--logo-font);
-  margin-top: 0.5em;
-  font-weight: extra-bold;
-  font-size: 2.4rem;
-  text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
-}
-
-h1.main-heading::before{
+.main-heading::before {
   content: "< ";
 }
-h1.main-heading::after{
+
+.main-heading::after {
   content: " />"
-}
-h1.main-heading::before, h1.main-heading::after{
-  font-family: var(--logo-font);
-  color: var(--dark-color);
-  font-size: 1.8rem;
 }
 
 #login-form{

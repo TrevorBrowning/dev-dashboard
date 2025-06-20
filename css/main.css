@@ -13,6 +13,7 @@
 
 /* Use Global Styles Here  */
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   --container-bg-light: #F1F2F4;
   --wrapper-color: #A9A9A9;
@@ -33,4 +34,27 @@ body {
   font-family: var(--primary-font), -apple-system, sans-serif;
   font-weight: 400;
   /* height: 100dvh; */
+}
+
+.main-heading {
+  font-family: var(--logo-font);
+  margin-top: 0.5em;
+  font-weight: extra-bold;
+  font-size: 2.4rem;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.main-heading::before {
+  content: "< ";
+}
+
+.main-heading::after {
+  content: " />"
+}
+
+.main-heading::before,
+.main-heading::after {
+  font-family: var(--logo-font);
+  color: var(--dark-color);
+  font-size: 1.8rem;
 }
